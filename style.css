@@ -281,6 +281,19 @@ h2::after {
   color: var(--accent-color);
 }
 
+.contact-badge.copied {
+  border-color: var(--accent-color);
+  background-color: rgba(0, 255, 170, 0.1);
+  color: var(--accent-color);
+}
+
+button.contact-badge {
+  font-family: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none;
+}
+
 footer {
   text-align: center;
   padding: 2rem;
